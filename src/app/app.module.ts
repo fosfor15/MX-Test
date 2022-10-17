@@ -6,7 +6,7 @@ import localeRu from '@angular/common/locales/ru';
 import { registerLocaleData } from '@angular/common';
 
 import { AppComponent } from './app.component';
-import { RateComponent } from './components/rate/rate.component';
+import { RateEuroComponent } from './components/rate-euro/rate-euro.component';
 
 
 registerLocaleData(localeRu, 'ru-RU');
@@ -19,7 +19,7 @@ registerLocaleData(localeRu, 'ru-RU');
     ],
     declarations: [
         AppComponent,
-        RateComponent
+        RateEuroComponent
     ],
     providers: [
         { provide: LOCALE_ID, useValue: 'ru-RU' }
